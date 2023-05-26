@@ -1,0 +1,30 @@
+.singleClass{
+  width: 350px;
+  min-height:510px ;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px gray;
+  overflow: hidden;
+  position: relative;
+}
+
+.singleClass > div{
+  padding: 10px 15px;
+}
+
+.singleClass img{
+  width: 100%;
+}
+
+.singleClass p{
+  text-align: justify;
+}
+
+.singleClass a{
+  position: absolute;
+  padding: 5px;
+  border: 1px solid gray;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+}

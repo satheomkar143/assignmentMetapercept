@@ -1,0 +1,38 @@
+<div class="container">
+  <header>
+    <div class="title">
+      <strong>Title</strong>
+    </div>
+    <div class="menu">
+      <div class="singleMenu">Home</div>
+      <div class="singleMenu">About</div>
+      <div class="singleMenu">Blog</div>
+      <div class="singleMenu">Contact</div>
+      <button>Button</button>
+    </div>
+  </header>
+
+  <div class="titleDiv">
+    <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, officiis veniam illo delectus voluptate ad odit non iusto quia optio. Doloremque tempora quaerat iure adipisci molestias nulla. Facere, quia blanditiis.</p>
+    <button>Read More</button>
+  </div>
+
+  <div class="classesDiv">
+    <div class="title">
+      <h1>Classes</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quo facilis quasi non quas esatione ea soluta?</p>
+    </div>
+    <div class="classes">
+      <app-single-class *ngFor="let class of classes" [singleClass]="class"></app-single-class>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright © 2021, All Rights reserved.</p>
+    <a >Back to Top</a>
+  </footer>
+</div>
+
+
+

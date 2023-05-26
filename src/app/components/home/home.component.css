@@ -1,0 +1,79 @@
+.container{
+  padding: 20px;
+  margin:0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 5px 20px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+}
+
+header .menu{
+  display: flex;
+  gap: 20px;
+}
+.menu > div{
+  display: flex;
+  align-items: center;
+}
+
+
+header button{
+  background-color: transparent;
+  border: 1px solid rgb(46, 240, 247);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.titleDiv{
+  background: linear-gradient(to right, rgb(46, 240, 247), rgb(125, 9, 136));
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  min-height: 300px;
+}
+
+.titleDiv p{
+  width: 500px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.titleDiv button{
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(39, 159, 163);;
+}
+
+.classesDiv{
+  margin-top: 50px;
+}
+
+.classesDiv .title{
+  text-align: center;
+}
+
+.classesDiv .classes{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
